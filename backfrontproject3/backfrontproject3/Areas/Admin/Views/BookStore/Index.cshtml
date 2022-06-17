@@ -1,0 +1,46 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between my-5">
+                        <a type="button" class="btn btn-primary " asp-controller="dashboard" asp-action="index" asp-area="admin">Go Back</a>
+                        <a type="button" class="btn btn-success " asp-area="admin" asp-controller="BookStore" asp-action="create">Create</a>
+
+                    </div>
+                    <h1 class="card-title">Categories</h1>
+
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Image</th>
+                                    <th>Title</th>
+                                    <th>Body</th>
+                                    <th>Settings</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    @*<td class="py-1">
+                                        <img src="~/assets/uploads/sliders/images/@Model.BackgroundImageUrl" class="img-fluid" alt="">
+                                    </td>
+                                    <td> @Model.Title</td>
+                                    <td> @Model.Body</td>*@
+
+                                    <td>
+                                        @*<a asp-area="admin" asp-controller="parallax" asp-action="edit" asp-route-id="@Model.Id" class="btn btn-warning">Update</a>*@
+
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

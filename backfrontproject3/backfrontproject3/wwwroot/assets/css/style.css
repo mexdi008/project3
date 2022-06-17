@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav .navbar-brand{
+    padding-left: 50px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+nav .navbar-brand img{
+    width: 40px;
+}
+
+nav .navbar-nav .first{
+    padding-left: 600px !important;
+}
+
+nav .navbar-nav li a {
+    color: black !important;
+    font-size: 20px;
+    font-family: fantasy;
+    transition: .3s;
+}
+
+    nav .navbar-nav li a:hover {
+        color: #B79B6C;
+        transition: .3s;
+    }
+
+    .button-div {
+        margin-left: 600px;
+    }
+
+
+.button-div .button {
+  background-color: black;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  border-radius: 3px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s;
+  font-size: 20px;
+  font-family: fantasy;
+
+}
+
+.button:hover{
+    background-color: #B79B6C;
+    transition: .3s;
+}
+
+.book-store{
+    background-color: #5C5E62;
+    height: 700px;
+}
+
+.book-store .texts{
+    color: white;
+    text-align: center;
+}
+
+
+.book-store .texts h5{
+    padding-top: 250px;
+}
+.card{
+    margin-top: 40px;
+    border: none !important;
+    display: flex;
+    justify-content: center;
+    background-color:#5C5E62 !important ;
+    color: white !important;
+    
+}
+.card-group img{
+    padding-left: 20px;
+    color: white !important;
+    width: 70px;
+}
+
+.card-1{
+    margin-left: 500px;
+}
+
+.card-2{
+    margin-left: 250px;
+}
+
+
+.card-3{
+    margin-right: 330px;
+}
